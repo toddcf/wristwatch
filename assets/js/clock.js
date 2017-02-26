@@ -2,7 +2,7 @@
 	// HOLD to set date & time. (A whole other series of functions.)
 
 // MODE button:
-	// Goto: CHRONO
+	// Goto: CHRONO.
 
 // START/SPLIT button:
 	// Press to view Time 1 / Time 2.
@@ -12,4 +12,4 @@
 	// N/A.
 
 // INDIGLO button:
-	// Light.
+	// Link to indiglo.js.
