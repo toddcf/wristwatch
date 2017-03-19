@@ -1,5 +1,14 @@
 // SET/RECALL button:
 	// HOLD to set date & time. (A whole other series of functions.)
+	// 24-HR mode:
+		/*
+		if ( ( 24-HR = true ) && ( ampm = pm ) && ( time >= 1:00 PM ) {
+			time = time + 12:00;
+		}
+		else if ( ( 24-HR = true ) && (ampm = am ) && time <= 1:00 AM ) {
+			time = time - 12:00;
+		}
+		*/
 
 // MODE button:
 	// Goto: CHRONO.
