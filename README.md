@@ -1,10 +1,20 @@
 # Timex T53151 Ironman Watch
-Reverse engineering the functions of my wristwatch. Just for fun.
+Reverse engineering the functions of my wristwatch, just for fun!
 
-- Set up basic wireframe.
-- Add favicon.
-- NOTE: Use soundsnap.com for the beep effects.
-- NOTE: Figure out if it's better to:
-  - Have one event handler per button that then runs an if/else or switch statement to determine which function to run if the button is pressed based on which state is currently active. Or:
-  - Have all the posible states listed out, and inside each one, the event handler for each button.
-  - For now, I am going to code it by button and list the possible states inside each event handler.
+- Style UI:
+  - Get buttons aligned properly.
+  - Add hover effects.
+  - Remove active border.
+  - Add favicon.
+  - Sound Effects:
+    - Temporary: Use soundsnap.com for the beep effects.
+    - Record the actual Timex Ironman SFX, edit them, and use them in the project.
+  - Display:
+    - Position the following:
+      - Main numbers.
+      - Day & date.
+      - Icons (chrono, timer, alarm, etc.).
+    - Set background color for:
+      - Indiglo off.
+      - Indiglo on. (Slight fade in and out when turning on and off.)
+- Functionality:

@@ -41,6 +41,14 @@ button:hover {
 	cursor: pointer;
 }
 
+/*#modeBtn, #stopBtn {
+	width: 25%;
+}
+
+#stopBtn {
+	width: 50%;
+}*/
+
 .display {
 	width: 500px;
 	height: 150px;
