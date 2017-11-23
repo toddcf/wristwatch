@@ -35,10 +35,20 @@ button {
 	font-size: 35px;
 	border: 2px solid orange;
 	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+button:focus {
+	outline: 0;
 }
 
 button:hover {
 	cursor: pointer;
+}
+
+button:active,
+button:visited {
+
 }
 
 /*#modeBtn, #stopBtn {

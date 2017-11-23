@@ -17,4 +17,7 @@ Reverse engineering the functions of my wristwatch, just for fun!
     - Set background color for:
       - Indiglo off.
       - Indiglo on. (Slight fade in and out when turning on and off.)
+- Add user instructions.
 - Functionality:
+- Amazon Link
+  - Including legal statement.
