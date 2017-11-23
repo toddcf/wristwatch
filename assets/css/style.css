@@ -15,23 +15,36 @@ html {
 	background-color: #000;
 }
 
+.console {
+	width: 500px;
+	height: 250px;
+	/* Centering: */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 audio {
 	display: none;
 }
 
 button {
-	background-color: #555;
+	background-color: transparent;
+	color: orange;
+	font-size: 35px;
+	border: 2px solid orange;
+	padding: 10px 20px;
+}
+
+button:hover {
+	cursor: pointer;
 }
 
 .display {
 	width: 500px;
 	height: 150px;
 	background-color: yellow;
-	/* Centering: */
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 
 .numbers {
