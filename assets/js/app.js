@@ -42,9 +42,55 @@ $( document ).ready( function() {
 		
 		if ( nightMode ) {
 
-			// Call indiglo();
+			indiglo();
+
 		}
 		
 	});
+
+	// INDIGLO FUNCTIONS:
+	function indiglo() {
+
+		// Change bg to indiglo color.
+		// Start 3-second countdown.
+		// After 3 seconds, change bg back to normal.
+	}
+
+	function nightMode() {
+
+		if ( nightMode ) {
+
+			nightMode = false;
+			
+			// Change bg to normal.
+
+		}
+
+		else {
+
+			nightMode = true;
+
+			indiglo();
+
+		}
 	
+	}
+
+	$( "#indigloBtn" ).click( function() {
+
+		indiglo();
+	
+	}
+
+	$( "#indigloBtn" ).mousedown( function() {
+
+		indiglo();
+
+		// Start 3-second countdown.
+
+		// If button held for 3 seconds:
+		// nightMode();
+	
+	}
+
 });
